@@ -10,6 +10,7 @@ namespace SeasonTest.Data
     internal class SeasonTestContext : DbContext
     {
         // dotnet ef migrations add AddSeasons --project ..\SeasonTest.Data
+        // dotnet ef database update --project ..\SeasonTest.Data
 
         //private readonly IConfiguration configuration;
         public SeasonTestContext(/*IConfiguration configuration*/)
