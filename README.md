@@ -13,6 +13,21 @@ The seasons you pass to the function can also be sourced from a DbContext, while
 The package will append the right LINQ query to the DbSet<Season> and return the correct season for the date.
 This project is a POC to proof that the appended LINQ query can in fact be entirely converted to SQL.
 
+## Preparation
+To create the database, run the following commands:
+
+    cd .\SeasonTest
+    dotnet ef database update --project ..\SeasonTest.Data
+
+You can now put seasons in the database.
+
+| Id | Name   | Start      | End        |
+|----|--------|------------|------------|
+|  1 | Spring | 21/03/2000 | 20/06/2000 |
+|  2 | Summer | 21/06/2000 | 20/09/2000 |
+|  3 | Automn | 21/09/2000 | 20/12/2000 |
+|  4 | Winter | 21/12/2000 | 20/03/2001 |
+
 ## What's in the box
 ### DbContext
 
