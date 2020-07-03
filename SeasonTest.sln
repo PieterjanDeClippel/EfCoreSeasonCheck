@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeasonTest", "SeasonTest\SeasonTest.csproj", "{E7E65353-5AA3-4BBE-9381-66057D7B9E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeasonTest", "SeasonTest\SeasonTest.csproj", "{E7E65353-5AA3-4BBE-9381-66057D7B9E39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeasonTest.Data", "SeasonTest.Data\SeasonTest.Data.csproj", "{3140CD74-3F46-484F-A626-5B165D93C837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeasonTest.Data", "SeasonTest.Data\SeasonTest.Data.csproj", "{3140CD74-3F46-484F-A626-5B165D93C837}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
