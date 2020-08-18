@@ -5,8 +5,8 @@ Get the season for a specific date, with seasons coming from a DbContext
 This project demonstrates how you can check to which season a certain date belongs.
 
 The project uses the MintPlayer.SeasonCheck NuGet package:
-- NuGet: https://www.nuget.org/packages/MintPlayer.SeasonCheck
-- GitHub: https://github.com/MintPlayer/MintPlayer.SeasonCheck
+- NuGet: https://www.nuget.org/packages/MintPlayer.SeasonChecker
+- GitHub: https://github.com/MintPlayer/MintPlayer.SeasonChecker
 
 This package is capable of finding out what season a certain date belongs, with the Seasons as an input parameter.
 The seasons you pass to the function can also be sourced from a DbContext, while not yet enumerated.
